@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@popperjs/core": "^2.9.2",
+        "@vue/composition-api": "^1.0.0-rc.8",
+        "axios": "^0.21",
+        "bootstrap": "^5.0.0-beta3",
+        "jquery": "^3.6",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^3.1.2",
+        "sass": "^1.32.11",
+        "sass-loader": "^11.0.1",
+        "vue": "^2.6.12",
+        "vue-loader": "^15.9.5",
+        "vue-template-compiler": "^2.6.12"
+    },
+    "dependencies": {
+        "@mathieustan/vue-datepicker": "^0.2.11",
+        "@vueform/multiselect": "^1.4.0",
+        "bootstrap-icons": "^1.4.1",
+        "moment": "^2.29.1",
+        "vue-dadata": "^1.4.10",
+        "vue-dadata-suggestions": "^0.6.1",
+        "vue-laravel-csrf": "^1.0.0",
+        "vue-the-mask": "^0.11.1",
+        "vuedraggable": "^2.24.3",
+        "vuelidate": "^0.7.6"
+    }
+}

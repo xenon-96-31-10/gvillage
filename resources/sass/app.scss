@@ -1,0 +1,38 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-icons/font/bootstrap-icons';
+@import '@mathieustan/vue-datepicker/dist/vue-datepicker.min.css';
+@import '@vueform/multiselect/themes/default.css';
+
+.sidebar-items:hover{
+  transform: scale(1.05);
+  box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+}
+
+.feature-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: .75rem;
+}
+
+.ring{
+  animation: ring .1s 10;
+}
+
+@keyframes ring {
+    0%{ transform: rotateZ(-.2deg); }
+    100%{ transform: rotateZ(.2deg); }
+}
